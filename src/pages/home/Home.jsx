@@ -11,7 +11,7 @@ export default function Home() {
         <div className="color-block"></div>
 
         <div className="home-img">
-          <img src="src\assets\portfolio.jpg" alt="" />
+          <img src="/assests/portfolio.jpg" alt="" />
         </div>
 
         <div className="home-text">
