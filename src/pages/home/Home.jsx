@@ -21,13 +21,14 @@ export default function Home() {
               <span>Web Developer</span>
             </h1>
             <p>
-              I specialize in creating modern, responsive, and user-friendly
-              websites and applications. With expertise in HTML, CSS,
-              JavaScript, ReactJS, and Spring Boot, I build scalable solutions
-              that align with business goals and user needs. Passionate about
-              clean code, I focus on delivering high-performance and visually
-              appealing projects. Let's turn ideas into reality with creative
-              design and efficient development!
+              Nice to meet you! My name is Duc and I am a person who is very
+              passionate about technology, especially the web. I aspire to
+              create websites that not only operate efficiently but also deliver
+              significant practical value, featuring optimal design and
+              exceptional user experiences. I continuously strive to learn and
+              apply new technologies to improve my knowledge and build
+              high-quality products that meet client needs. I look forward to
+              meeting you!
             </p>
             <ButtonCustom className="portfolio-btn">
               <Link to="/about">

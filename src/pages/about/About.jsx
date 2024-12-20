@@ -33,10 +33,10 @@ export default function About() {
       path: react,
     },
 
-    // {
-    //   name: "css",
-    //   path: css,
-    // },
+    {
+      name: "css",
+      path: css,
+    },
     {
       name: "tailwind",
       path: tailwind,
@@ -63,14 +63,6 @@ export default function About() {
       path: java,
     },
 
-    {
-      name: "go",
-      path: go,
-    },
-    // {
-    //   name: "bootstrap",
-    //   path: bootstrap,
-    // },
     // {
     //   name: "redux",
     //   path: redux,
