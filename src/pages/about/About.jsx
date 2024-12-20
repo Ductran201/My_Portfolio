@@ -225,9 +225,9 @@ export default function About() {
                 </div>
                 <span className="time">2024</span>
                 <h3>
-                  Holdstation <span className="place">company</span>{" "}
+                  ABC <span className="place">company</span>{" "}
                 </h3>
-                <p>Back end developer</p>
+                <p>Full-stack developer</p>
               </div>
               {/* ))} */}
             </div>
