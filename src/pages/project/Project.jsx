@@ -94,7 +94,7 @@ export default function Project() {
       backend: "Spring Boot, MySQL",
       source: "https://github.com/Ductran201/WebMovieApplication",
       // preview: '',
-      tags: ["thymeleaf", "javascript", "bootstrap", "movie", "spring boot"],
+      tags: ["thymeleaf", "bootstrap", "movie", "spring boot"],
     },
   ];
 
