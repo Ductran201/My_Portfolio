@@ -22,7 +22,7 @@ export default function Home() {
             </h1>
             <p>
               Nice to meet you! My name is Duc and I am a person who is very
-              passionate about technology, especially the web. I aspire to
+              passionate about technology, especially the web. I aspire toho
               create websites that not only operate efficiently but also deliver
               significant practical value, featuring optimal design and
               exceptional user experiences. I continuously strive to learn and

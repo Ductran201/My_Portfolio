@@ -118,9 +118,10 @@ export default function About() {
                 </li>
                 <li>
                   <span>git: </span>
+                  https://github.com/
                 </li>
                 <li>
-                  <span>language: </span>
+                  <span>language: </span>VietNamese, English
                 </li>
                 <li>
                   <span>email: </span>
@@ -146,7 +147,17 @@ export default function About() {
             <div className="info__more">
               <div className="info__more__card">
                 <h3>
-                  1
+                  3
+                  <AddIcon />
+                </h3>
+                <p>
+                  personal <span>projects</span>
+                </p>
+              </div>
+
+              <div className="info__more__card">
+                <h3>
+                  0
                   <AddIcon />
                 </h3>
                 <p>
@@ -156,17 +167,7 @@ export default function About() {
 
               <div className="info__more__card">
                 <h3>
-                  1
-                  <AddIcon />
-                </h3>
-                <p>
-                  years of <span>experience</span>
-                </p>
-              </div>
-
-              <div className="info__more__card">
-                <h3>
-                  1
+                  0
                   <AddIcon />
                 </h3>
                 <p>
@@ -202,7 +203,6 @@ export default function About() {
           <h3 className="resume__heading">Education & Experience</h3>
           <div className="resume">
             <div className="resume__edu">
-              {/* {edu.map((item, i) => ( */}
               <div className="resume__edu__item mb-3">
                 <div className="icon">
                   <i className="bx bxs-briefcase"></i>
@@ -214,7 +214,16 @@ export default function About() {
                 <p>Graduated</p>
               </div>
 
-              {/* ))} */}
+              <div className="resume__edu__item mb-3">
+                <div className="icon">
+                  <i className="bx bxs-briefcase"></i>
+                </div>
+                <span className="time">2024</span>
+                <h3>
+                  Rikkei <span className="place">Academy</span>{" "}
+                </h3>
+                <p>Graduated</p>
+              </div>
             </div>
 
             <div className="resume__exp">
@@ -225,7 +234,7 @@ export default function About() {
                 </div>
                 <span className="time">2024</span>
                 <h3>
-                  ABC <span className="place">company</span>{" "}
+                  ABCDE <span className="place">company</span>{" "}
                 </h3>
                 <p>Full-stack developer</p>
               </div>

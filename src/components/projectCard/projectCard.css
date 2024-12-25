@@ -1,8 +1,8 @@
-.portfolio-card:first-child {
+.project-card:first-child {
   /* animation-delay: 0.1666666667s; */
 }
 
-.portfolio-card {
+.project-card {
   /* animation: fade-right 0.3s ease-in-out; */
   /* animation-fill-mode: forwards; */
   /* animation-iteration-count: 1; */
@@ -11,15 +11,16 @@
   width: calc(33.33333% - 20px);
 }
 
-.portfolio-card .bg-wrap {
+.project-card .bg-wrap {
   /* background-position: 50%; */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-  /* padding-top: 62.5%; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 62.5%;
+  background-position: center;
   /* width: 100%; */
 }
 
-.portfolio-card h3 {
+.project-card h3 {
   font-size: 24px;
   font-weight: 600;
   left: 50%;
@@ -32,7 +33,7 @@
   visibility: hidden;
 }
 
-.portfolio-card:after {
+.project-card:after {
   /* background-color: #000; */
   background-color: red;
   bottom: 0;
@@ -46,13 +47,13 @@
   visibility: hidden;
 }
 
-.portfolio-card :hover {
+.project-card :hover {
   opacity: 0.5;
   cursor: pointer;
   visibility: visible;
 }
 
-.portfolio-card:hover h3 {
+.project-card:hover h3 {
   opacity: 1;
   visibility: visible;
   transform: translate(-50%, -50%);
