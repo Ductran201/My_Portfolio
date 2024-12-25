@@ -147,7 +147,7 @@ export default function About() {
             <div className="info__more">
               <div className="info__more__card">
                 <h3>
-                  3
+                  4
                   <AddIcon />
                 </h3>
                 <p>
