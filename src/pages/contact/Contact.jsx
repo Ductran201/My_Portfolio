@@ -52,7 +52,7 @@ export default function Contact() {
                     <CallIcon />
                   </div>
                   <span>Phone</span>
-                  <a href="tel:07089592557">07089592xxx</a>
+                  <a href="tel:0356581703">0356581703</a>
                 </li>
               </ul>
 
