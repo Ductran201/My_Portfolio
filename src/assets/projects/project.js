@@ -13,6 +13,8 @@ import mv1 from "./movie/1.png";
 import mv2 from "./movie/2.png";
 import mv3 from "./movie/3.png";
 import mv4 from "./movie/4.png";
+import ms1 from "./musicApp/1.png";
+import ms2 from "./musicApp/2.png";
 
 export {
   fastFood1,
@@ -30,4 +32,6 @@ export {
   mv2,
   mv3,
   mv4,
+  ms1,
+  ms2,
 };

@@ -13,9 +13,7 @@ export default function ProjectDetail({ item, close }) {
             <h3>
               <span>{item.title}</span>
             </h3>
-            {/* <div className="img mb-1">
-              <div className="img-wrap" style={{ backgroundImage: `url(${item.thumb})` }}></div>
-            </div> */}
+
             <Carousel arrows>
               {item.thumbUrl.map((url, i) => (
                 <div key={i}>
@@ -29,11 +27,7 @@ export default function ProjectDetail({ item, close }) {
             <h3>
               <span>Detail</span>
             </h3>
-            {/* <div className="video">
-              <div className="frame">
-                <iframe src="" title="project" allowFullScreen></iframe>
-              </div>
-            </div> */}
+
             <p>{item.description}</p>
             <ul>
               <li>

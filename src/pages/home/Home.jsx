@@ -22,7 +22,7 @@ export default function Home() {
             </h1>
             <p>
               Nice to meet you! My name is Duc and I am a person who is very
-              passionate about technology, especially the web. I aspire toho
+              passionate about technology, especially the web. I aspire to
               create websites that not only operate efficiently but also deliver
               significant practical value, featuring optimal design and
               exceptional user experiences. I continuously strive to learn and
@@ -30,7 +30,7 @@ export default function Home() {
               high-quality products that meet client needs. I look forward to
               meeting you!
             </p>
-            <ButtonCustom className="portfolio-btn">
+            <ButtonCustom>
               <Link to="/about">
                 <span className="btn-text">About</span>
                 <span className="btn-icon">
@@ -38,7 +38,7 @@ export default function Home() {
                 </span>
               </Link>
             </ButtonCustom>
-            <ButtonCustom className="about-btn ml-[48px]">
+            <ButtonCustom className="ml-[48px]">
               <Link to="/project">
                 <span className="btn-text">Project</span>
                 <span className="btn-icon">

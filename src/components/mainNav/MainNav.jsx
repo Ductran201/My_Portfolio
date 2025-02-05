@@ -28,16 +28,6 @@ export default function MainNav() {
       title: "contact",
       icon: <EmailIcon />,
     },
-    // {
-    //   path: "/sdf",
-    //   title: "homesdf",
-    //   icon: <Home />,
-    // },
-    // {
-    //   path: "/sdfsdfsdf",
-    //   title: "homewerwer",
-    //   icon: <Home />,
-    // },
   ];
 
   return (

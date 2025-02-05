@@ -18,13 +18,15 @@ import {
   mv2,
   mv3,
   mv4,
+  ms1,
+  ms2,
 } from "../../assets/projects/project";
 export default function Project() {
   const categories = [
     "ALL",
     "HTML/CSS/JAVASCRIPT",
     "THYMELEAF",
-    "REACTJS",
+    "NEXTJS/REACTJS/TAILWIND",
     "API",
   ];
   const projects = [
@@ -93,8 +95,21 @@ export default function Project() {
       frontend: ["Thymeleaf", "Bootstrap", "Javascript"],
       backend: "Spring Boot, MySQL",
       source: "https://github.com/Ductran201/WebMovieApplication",
-      // preview: '',
       tags: ["thymeleaf", "bootstrap", "movie", "spring boot"],
+    },
+    {
+      id: 5,
+      thumbUrl: [ms1, ms2],
+
+      date: "01/01/2024",
+      title: "Music App",
+      description: "This project build by nextJs and tailwindCss ",
+      role: "Main Developer",
+      frontend: ["NextJs", "TypeScript", "Tailwind"],
+      backend: "None",
+      source: "https://github.com/Ductran201/MusicApp",
+      preview: "https://music-app-rose-psi.vercel.app/",
+      tags: ["nextjs", "typescript", "tailwind", "audio"],
     },
   ];
 
@@ -109,6 +124,7 @@ export default function Project() {
             .split(",")
             .map((tag) => tag.trim().toLowerCase());
           // Check if any tag in selectedTags is included in the project's tags
+          console.log({ selectedTags });
           return selectedTags.some((tag) => project.tags.includes(tag));
         });
 
